@@ -1,0 +1,75 @@
+
+/* css menu */
+.menu2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #111111;
+    border: 1px solid #ccc;
+    min-width: 150px;
+}
+.menu2 li {
+    display: block;
+}
+.menu1:hover .menu2 {
+    display: block;
+    min-width: 150px;
+}
+
+.product__price {
+ 
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-bottom: -55px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.mau{
+    margin-top: -15px;
+    display: flex;
+}
+.product__price_sale{
+margin-left:-50px;
+font-weight: bolder;
+}
+.product__price_sale span{
+    text-decoration: line-through;
+}
+
+.product__item:hover .product__item__title {
+    opacity: 1;
+}
+.product__item:hover .product__price {
+    display: block; 
+}
+.product__item__text a{
+
+    opacity: 1;
+    width: 255px;
+    text-align:center;
+}
+.product__item__text .product__color__select {
+    position: sticky;
+}
+.breadcrumb__links button{
+    margin-left: 330px;
+}
+.price_one{
+
+    text-align:center;
+    margin-right: 60px;
+    font-weight: bolder;
+}
+.product__item__pic{
+    width:80%;
+}
+
+.column-bottom {
+    height: 100%; /* Đặt độ cao của cột ở giữa bằng 100% */
+}
